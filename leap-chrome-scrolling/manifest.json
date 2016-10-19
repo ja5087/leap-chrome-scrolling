@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+
+    "name" : "Leap Motion Integration for Chrome",
+    "description" : "This extension allows users to perform Leap Motion Gestures to interact with the Chrome Browser",
+    "version" : "0.05",
+
+    "browser_action" : {
+        "default_icon" : "icon.png",
+        "default_popup" : "popup.html"
+    },
+
+    "permissions": [
+      "activeTab",
+      "tabs", 
+      "http://*/*",
+      "https://*/*"
+    ],
+
+     "content_scripts" : [{
+        "matches" : [ "http://*/*","https://*/*"],
+        "js" : ["leapInject.js"]
+     }],
+
+    "background": {
+      "scripts": ["leap.min.js", "leapControl.js"],
+      "persistent": false
+    }
+}
