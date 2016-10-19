@@ -1,2 +1,6 @@
 _*
 *.pem
+*/.DS_Store
+Desktop.ini
+Thumbs.db
+.DS_Store
