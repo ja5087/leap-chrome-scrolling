@@ -15,4 +15,6 @@ A chrome extension for the Leap Motion to allow for scrolling/panning using hand
 
 ## Attributions
 
-This project uses the LeapJS Library from [https://github.com/leapmotion/leapjs](https://github.com/leapmotion/leapjs)
+This project uses the LeapJS Library from [https://github.com/leapmotion/leapjs](https://github.com/leapmotion/leapjs).
+
+Thank you to [FiBO Institute](http://fibo.kmutt.ac.th/) at King Mongkut's University of Technology Thonburi for lending me a Leap Motion to experiment on.
